@@ -6,10 +6,10 @@
 4. Extract the package `tar xvf node18.tar.xz`.
 5. Navigate into the newly created folder by `cd [name of folder]`. If you don't know the name of the folder type `ls`. 
 6. Execute the following commands line by line: 
-``
+```
 sudo cp -R bin/* /usr/bin/
 sudo cp -R lib/* /usr/lib/
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install build-essential
-``
+```
 7. Run `node -v` to check if it worked. 
